@@ -1,0 +1,122 @@
+.wrap {
+  border-radius: 10rem;
+  margin: 0;
+  position: absolute;
+  left: 30rem;
+  top: 5rem;
+  height: 27rem;
+  width: 21.5rem; }
+
+.top {
+  width: 100%;
+  height: 2.5rem;
+  font-weight: bold;
+  font-size: xx-large; }
+  .top .reset {
+    position: relative;
+    height: 3rem;
+    left: 8rem;
+    background-color: #19be5f;
+    border-style: hidden;
+    border-radius: 1rem;
+    color: #fff; }
+
+.game_interface {
+  width: 100%;
+  height: 21.5rem;
+  border-radius: 1rem;
+  background-color: #bbada0; }
+  .game_interface .grid > li {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    list-style: none; }
+  .game_interface .g00, .game_interface .g01, .game_interface .g02, .game_interface .g03 {
+    position: absolute;
+    top: 4.5rem; }
+  .game_interface .g10, .game_interface .g11, .game_interface .g12, .game_interface .g13 {
+    position: absolute;
+    top: 9.5rem; }
+  .game_interface .g20, .game_interface .g21, .game_interface .g22, .game_interface .g23 {
+    position: absolute;
+    top: 14.5rem; }
+  .game_interface .g30, .game_interface .g31, .game_interface .g32, .game_interface .g33 {
+    position: absolute;
+    top: 19.5rem; }
+  .game_interface .g00, .game_interface .g10, .game_interface .g20, .game_interface .g30 {
+    position: absolute;
+    left: 1rem; }
+  .game_interface .g01, .game_interface .g11, .game_interface .g21, .game_interface .g31 {
+    position: absolute;
+    left: 6rem; }
+  .game_interface .g02, .game_interface .g12, .game_interface .g22, .game_interface .g32 {
+    position: absolute;
+    left: 11rem; }
+  .game_interface .g03, .game_interface .g13, .game_interface .g23, .game_interface .g33 {
+    position: absolute;
+    left: 16rem; }
+
+.zero {
+  background-image: url(../img/0.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.two {
+  background-image: url(../img/2.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.four {
+  background-image: url(../img/4.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.eight {
+  background-image: url(../img/8.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.sixteen {
+  background-image: url(../img/16.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.thirty_two {
+  background-image: url(../img/32.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.sixty_four {
+  background-image: url(../img/32.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.oneTwoEight {
+  background-image: url(../img/128.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.twoFiveSix {
+  background-image: url(../img/256.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.fiveOneTwo {
+  background-image: url(../img/512.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.oneZeroTwoFour {
+  background-image: url(../img/1024.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.twoZeroFourEight {
+  background-image: url(../img/2048.png);
+  background-repeat: none;
+  background-size: 100%; }
+
+.gameover {
+  display: none; }
+
+/*# sourceMappingURL=mian.css.map */
